@@ -1,0 +1,128 @@
+/* General styling for the profile page */
+.profile-container {
+  background-image: url('C:/Users/kavin/OneDrive/Desktop/biobazaar/Biobazaar/src/assets/images/bg.jpg');
+  background-size: cover; /* Adjust to fit the entire screen */
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  height: 100vh; /* Full height for the container */
+}
+
+/* Apply similar blur and overlay effect */
+.profile-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(4px); /* Increase blur for a more pronounced effect */
+  z-index: -1; /* Keep the blur behind the content */
+}
+
+.profile-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(42, 42, 42, 0.5); 
+  z-index: -1;
+}
+
+/* Profile content styling */
+.profile-content {
+  background-color: rgb(180, 188, 196); /* Similar to your theme */
+  border-radius: 25px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto; /* Center the content */
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); /* Center vertically */
+}
+
+/* Profile picture styling */
+.profile-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid rgb(42, 42, 42);
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Profile heading */
+.profile-content h1 {
+  color: rgb(42, 42, 42); /* Darker color for better contrast */
+  font-size: 36px;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Profile details */
+.profile-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  animation: fadeIn 3s ease-in-out;
+}
+
+/* Edit Profile button */
+.edit-button {
+  background-color: rgb(180, 188, 196); 
+  color: #000000;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.6s ease;
+  margin-top: 20px;
+  animation: fadeIn 4s ease-in-out;
+}
+
+.edit-button:hover {
+  background-color: transparent;
+  color: rgb(180, 188, 196);
+}
+
+/* Form styling for edit profile */
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.profile-form label {
+  font-size: 18px;
+  text-align: left;
+}
+
+.profile-form input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.profile-form button {
+  background-color: rgb(180, 188, 196); 
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.6s ease;
+}
+
+.profile-form button:hover {
+  background-color: transparent;
+  color: rgb(180, 188, 196);
+}

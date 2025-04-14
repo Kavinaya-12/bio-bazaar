@@ -1,0 +1,70 @@
+.wishlist-container {
+    padding: 20px;
+    text-align: center;
+    background-color: transparent; /* Light background for the wishlist */
+  }
+  
+  .wishlist-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e3dddd; /* Dark text color for the header */
+  }
+  
+  .wishlist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .wishlist-card {
+    border: 1px solid #a4a1a1;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    background-color: #dcdcdc; /* White background for the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+  }
+  
+  .wishlist-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .wishlist-card h3 {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    color: #444; /* Slightly lighter than header color */
+  }
+  
+  .wishlist-card p {
+    font-size: 1rem;
+    color: #666; /* Gray text for price */
+  }
+  
+  .wishlist-card button {
+    background-color: #5e5d5e; /* Primary button color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    border-color: #444;
+
+  }
+  
+  .wishlist-card button:hover {
+    background-color: #f2f0f1; /* Slightly darker shade on hover */
+color: #444;  
+border-color: #444;
+}
+  
+  .wishlist-card button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 2px #444;
+  }
+  

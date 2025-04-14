@@ -1,0 +1,125 @@
+.cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05));
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cart-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(180, 188, 196);
+  margin-bottom: 20px;
+  font-family: 'Pacifico', cursive; /* If using Pacifico font */
+}
+
+/* Cart items container */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Cart item styling */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background:  rgb(180, 188, 196);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.cart-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cart-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+  border: 2px solid #ddd;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h3 {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.item-details p {
+  margin: 5px 0;
+  color: #777;
+}
+
+.item-controls {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.item-controls button {
+  background-color: #333;
+  color:  rgb(180, 188, 196);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.item-controls button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+/* Cart summary styling */
+.cart-summary {
+  background: rgb(180, 188, 196);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.cart-summary h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.cart-summary p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.checkout-button {
+  background-color: rgba(42, 42, 42, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.checkout-button:hover {
+  background-color: rgb(180, 188, 196);
+  color: rgba(42, 42, 42, 0.5) ;
+  border-color: rgba(42, 42, 42, 0.5)  ;
+  transform: scale(1.05);
+}

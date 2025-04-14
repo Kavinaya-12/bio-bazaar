@@ -1,0 +1,85 @@
+.about-us-container {
+    padding: 20px;
+    background-color: rgb(180, 188, 196);
+    color: #333;
+  }
+  
+  .intro-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .intro-section h1 {
+    font-size: 36px;
+    color: rgb(42, 42, 42);
+    margin-bottom: 10px;
+  }
+  
+  .intro-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .team-section {
+    margin-bottom: 40px;
+  }
+  
+  .team-section h2 {
+    font-size: 30px;
+    color: rgb(42, 42, 42);
+    margin-bottom: 20px;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .team-info {
+    max-width: 600px;
+  }
+  
+  .team-info h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .team-info p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .mission-section {
+    text-align: center;
+  }
+  
+  .mission-section h2 {
+    font-size: 30px;
+    color: rgb(42, 42, 42);
+    margin-bottom: 20px;
+  }
+  
+  .mission-section img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .mission-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  

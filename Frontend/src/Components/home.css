@@ -1,0 +1,99 @@
+body {
+  background-image: url('C:/Users/kavin/OneDrive/Desktop/biobazaar/Biobazaar/src/assets/images/bg.jpg');
+  background-size: 1550px 900px;
+  background-repeat: repeat;
+  margin: 10px;
+}    
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(2px); /* Adjust the blur amount */
+  z-index: -1; /* Keep the blur behind the content */
+}
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(42, 42, 42, 0.5); 
+  z-index: -1;
+}
+.typewriter-container{
+  height: 579px;
+  width: 1490px;
+}
+.typewriter-container h1{
+  color: rgb(180, 188, 196);
+  width: 40%;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 50px;
+  transition: background-color 0.3s ease, opacity 0.6s ease;
+  animation: fadeIn 2s ease-in-out;
+}
+.bodcont{
+   width: 450px;
+   height: fit-content;
+   border-radius: 25px;
+   padding-left: 20px;
+   
+}
+.bodcont p{
+  background-color: rgb(180, 188, 196);
+  width: 510px;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+  margin-left: 100px;
+  transition: background-color 0.3s ease, opacity 0.6s ease;
+  animation: fadeIn 3s ease-in-out;
+}
+
+.bodcont span{
+  background-color: rgb(180, 188, 196);
+  max-width: fit-content;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 12px;
+  transition: background-color 0.3s ease, opacity 0.6s ease;
+  animation: fadeIn 4s ease-in-out;
+}
+.explore-button {
+  background-color: rgb(180, 188, 196); 
+   
+
+  color: #000000; 
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.6s ease;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 50px;
+  margin-left: 300px;
+  animation: fadeIn 5s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} 
+
+.explore-button:hover{
+  background-color: transparent;
+  color: rgb(180, 188, 196);
+}
